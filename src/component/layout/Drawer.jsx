@@ -3,7 +3,7 @@ import SchduleList from "./SchduleList";
 function Drawer() {
   return (
     <>
-      <div class='drawer drawer-mobile'>
+      <div class='drawer drawer-mobile '>
         <input id='my-drawer-2' type='checkbox' class='drawer-toggle' />
         <div class='drawer-content mx-auto'>
           <label

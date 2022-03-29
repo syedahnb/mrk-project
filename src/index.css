@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer components {
+  .drawer-mobile {
+    @apply h-[10vh];
+  }
+}
