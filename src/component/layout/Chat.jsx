@@ -1,17 +1,19 @@
+import { Helmet } from "react-helmet";
+// import { Chatango } from "../../assets/chatango.js";
 function Chat() {
   return (
-    <iframe
-      src='http://crichdtv-.chatango.com/'
-      style='border:0px #ffffff none;'
-      name='myiFrame'
-      scrolling='no'
-      frameborder='1'
-      marginheight='0px'
-      marginwidth='0px'
-      height='400px'
-      width='600px'
-      allowfullscreen
-    ></iframe>
+    <>
+      <Helmet>
+        {/* <script
+          id='cid0020000310096411749'
+          data-cfasync='false'
+          async
+          src='//st.chatango.com/js/gz/emb.js'
+          style='width: 309px;height: 574px;'
+        ></script> */}
+        ;
+      </Helmet>
+    </>
   );
 }
 
